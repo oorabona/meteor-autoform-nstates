@@ -1,0 +1,8 @@
+<template name="tristate">
+  <label class="{{this.atts.labelClass}}" {{dsk}}>
+    <input type="checkbox" {{inputAtts}}/>
+    {{#with state}}
+    <span title="{{title}}" class="{{icons}}"></span>
+    {{/with}}
+  </label>
+</template>
