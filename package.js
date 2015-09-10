@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   api.use('blaze@2.0.0');
   api.use('aldeed:autoform@5.0.0');
   api.use('coffeescript');
-  api.use('reactivedict');
+  api.use('reactive-dict');
   api.addFiles([
     'nstates.html',
     'nstates.coffee'
