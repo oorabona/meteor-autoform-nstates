@@ -10,8 +10,8 @@ Package.onUse(function(api) {
   api.use('templating@1.0.0');
   api.use('blaze@2.0.0');
   api.use('aldeed:autoform@5.0.0');
-  api.use('coffeescript');
-  api.use('reactive-dict');
+  api.use('coffeescript@1.0.0');
+  api.use('reactive-dict@1.0.0c');
   api.addFiles([
     'nstates.html',
     'nstates.coffee'
